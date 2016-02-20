@@ -325,7 +325,7 @@ h3 {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 3%;
+  padding: 0 5%;
   overflow: hidden;
 }
 .content {
@@ -439,14 +439,21 @@ h3 {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 .about .team .profile {
   width: 200px;
   height: 260px;
   border-radius: 4px;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 .about .team .info {
   margin-left: 30px;
+  margin-top: 30px;
 }
 .about .team .info span {
   display: block;
@@ -635,8 +642,9 @@ nav.main .git {
     top: 0;
     width: 100%;
     right: 0;
-    padding: 50px 3% 10px;
+    padding: 50px 5% 10px;
     box-shadow: 0px 2px 5px 0px rgba(0,166,204,0.2);
+    background-color: rgba(255,255,255,0.96);
   }
   nav.main .git {
     display: block;
@@ -650,6 +658,7 @@ nav.main .git {
     bottom: 0;
     overflow: auto;
     padding-left: 10%;
+    background-color: #fff;
   }
   nav.main.mobile-nav .page-links {
     font-size: 18px;
@@ -669,8 +678,9 @@ nav.main .git {
   -ms-user-select: none;
   user-select: none;
   position: absolute;
-  right: 3%;
+  right: 5%;
   top: 50px;
+  padding: 5px 7px;
 }
 .menu-icon:focus {
   outline: none;
@@ -772,7 +782,7 @@ footer .footer-nav a {
   display: inline-block;
 }
 footer .footer-nav li {
-  margin-left: 10px;
+  margin: 0 5px;
 }
 footer .footer-nav a {
   padding: 10px;
