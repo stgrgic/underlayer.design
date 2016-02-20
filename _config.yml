@@ -11,5 +11,7 @@ markdown: kramdown
 
 include: ["_pages"]
 
-# port:    4004
-# host:    127.0.0.1
+exclude: ["node_modules"]
+
+gems:
+  - jekyll-sitemap
