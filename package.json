@@ -1,0 +1,35 @@
+{
+  "name": "underlayer.design",
+  "version": "1.0.0",
+  "description": "Website for underlayer.design",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.3.0",
+    "gulp-util": "^3.0.7",
+    "jeet": "^6.1.2",
+    "nib": "^1.1.0",
+    "normalize-styl": "^3.0.3",
+    "run-sequence": "^1.1.5",
+    "rupture": "^0.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stjepco/underlayer.design.git"
+  },
+  "keywords": [
+    "underlayer"
+  ],
+  "author": "Stjepan Grgić",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stjepco/underlayer.design/issues"
+  },
+  "homepage": "https://github.com/stjepco/underlayer.design#readme"
+}

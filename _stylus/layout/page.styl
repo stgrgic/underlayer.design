@@ -1,0 +1,163 @@
+// //Page
+
+
+.page
+    .hero
+        margin-bottom 80px
+
+.landing
+    .hero
+        .cta
+            margin-bottom 40px
+            
+    .means
+        .img-resp
+            margin-top 60px
+
+    .clients
+        position relative
+        &__wrap
+            display flex
+            flex-wrap wrap
+            flex-shrink 0
+            justify-content flex-start
+        .client
+            margin 12px
+        .vibby
+            width 99px
+            height 44px
+        .loopus
+            width 142px
+            height 55px
+        .microsoft
+            width 134px
+            height 44px
+        .ericsson
+            width 126px
+            height 44px
+        .talkbook
+            width 91px
+            height 44px
+        .n_s
+            width 149px
+            height 44px
+        .abbive
+            width 108px
+            height 44px
+        .dnb
+            width 209px
+            height 44px
+            
+    .contact     
+        .contact-form
+            margin-top 60px
+            width 100%
+            form
+                color #7C7D80
+                text-align right
+            input
+                margin-bottom 15px
+                width 100%
+            textarea
+                resize none
+                width 100%
+            .cta
+                width auto
+                text-align right
+                margin-top 30px
+                margin-bottom 0
+                margin-right 0
+            
+.about
+    .img-resp
+        margin 0
+    .team
+        &__wrap
+            display flex
+            align-items flex-end
+        .profile
+            width 200px
+            height 260px
+            border-radius 4px
+        .info
+            margin-left 30px
+            span
+                display block
+                margin-top 5px
+                &.links
+                    margin-left -5px
+                a
+                    font-size 14px
+                    padding 5px
+        
+    .partners
+        &__wrap
+            display flex
+            align-items center
+            flex-wrap wrap
+            a
+                display block
+                margin-right 60px
+                margin-bottom 30px
+
+        .loopus
+            width 198px
+            height 64px
+        .kodelabs
+            width 205px
+            height 31px
+
+.contact
+    .adress
+        display flex
+        justify-content space-between
+        flex-wrap wrap
+    address
+        text-decoration none
+        font-style normal
+        line-height 1.5
+    .small-link
+        margin-left 10px
+    .img-resp
+        margin 80px 0 0
+    .cta
+        align-self flex-end
+        margin-top 30px
+        
+
+.work
+    .hero
+        margin-bottom 80px
+    .project
+        display flex
+        flex-wrap wrap
+        font-size 14px
+        margin-bottom 30px
+        &__img
+            width 320px
+            height 210px
+            +below(360px)
+                width 100%
+                height 50%
+        &__info
+            align-self flex-end
+            margin 0 0 5px 30px
+            width 100%
+            +above(720px)
+                width 300px
+            +below(720px)
+                margin-top 30px
+                margin-bottom 60px
+            .link
+                margin-top 10px
+            span
+                display block
+            .involved
+                margin-top 20px
+            .b
+                color $dark-gray
+                font-weight normal
+    .git
+        display flex
+        align-items center
+

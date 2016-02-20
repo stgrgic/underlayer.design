@@ -1,0 +1,113 @@
+//Nav
+
+nav.main
+    position fixed
+    z-index 999
+    background-color #fff
+    padding 50px 0 10px
+    transition all 0.3s ease
+    a
+        &.active:before
+            content ""
+            width 4px
+            height 4px
+            display block
+            position absolute
+            left -5px
+            bottom 15px
+            +below(1100px)
+                bottom 25px
+            border-radius 2px
+            background-color $light-blue
+        &:hover
+            transform scale(1.1)
+    .page-links
+        margin-left 33px
+        margin-top 20px
+        
+        font-size 15px
+        letter-spacing 0.02em
+        line-height 2.2
+        a
+            padding 0 5px
+    .s
+        margin-left 38px
+        margin-top 20px
+        .link
+            margin-bottom 20px
+            width 24px
+            height 24px
+            line-height 1
+            display block
+            svg
+                fill $light-blue
+
+    .git
+        display none
+    +below(1100px)
+        height 90px
+        overflow hidden
+        left 0
+        top 0
+        width 100%
+        right 0
+        padding 50px 3% 10px
+        box-shadow: 0px 2px 5px 0px rgba(0,166,204,0.20);
+        
+        .git
+            display block
+            margin 0
+            padding-top 20px
+            padding-left 20px
+            padding-bottom 20px
+                
+        &.mobile-nav
+                
+            height 100%
+            bottom 0
+            overflow auto
+            padding-left 10%
+            
+            .page-links
+                font-size 18px
+                line-height 3
+            .s
+                .link
+                    width 30px
+                    height 30px
+                    margin-bottom 35px
+
+.menu-icon
+    cursor pointer
+    z-index: 10000
+    user-select none
+    position absolute
+    right 3%
+    top 50px
+    &:focus
+        outline none
+    +above(1100px)
+        display none
+    .sh
+        content ""
+        width 30px
+        height 3px
+        background-color $light-blue
+        position relative
+        margin-bottom 5px
+        transition all 0.2s ease
+        border-radius 2px
+        &:focus
+            outline none
+    &--active .sh2
+        background-color rgba(0, 0, 0, 0)
+        transform translateX(-5px)
+    &--active .sh1
+        transform rotate(45deg) translateX(4px) translateY(7px)
+    &--active .sh3
+        transform rotate(-45deg) translateX(4px) translateY(-8px)
+    &--active .text
+        display none
+    .sh3
+        margin 0px     
+

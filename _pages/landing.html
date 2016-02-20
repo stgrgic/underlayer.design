@@ -1,0 +1,58 @@
+---
+layout: page
+permalink: /
+title: building digital experiences
+description: underlayer is design and development studio that strives to design and develop beautiful, easy to use mobile apps and websites for clients like you.
+---
+<div class="landing">
+    <section class="hero">
+        <h1 class="hero__title">We design<br>digital expiriences</h1>
+        {% include git.html %}
+        <div class="img-resp">
+            <img src="/assets/img/underlayer-hero-illustration@2x.png" alt="illustration">
+        </div>
+    </section>
+    
+    <section class="section means">
+        <h2 class="section__title">What that means?</h2>
+        <p class="section__description">That means we are giving our best to design, test and develop beautiful, easy to use mobile and web apps for clients like you. <a href="/about/">Read more about us</a></p>
+        <div class="img-resp">
+            <img src="/assets/img/underlayer-desk-illustration@2x.png" alt="illustration">
+        </div>
+    </section>
+    
+    <section class="section clients">
+        <h2 class="section__title">Clients</h2>
+        <p class="section__description">We've been lucky enough to work with some amazing clients, and we love them all.</p>
+        <div class="clients__wrap">
+            <img src="/assets/img/clients/vibby@2x.jpg" alt="client logo" class="client vibby">
+            <img src="/assets/img/clients/loopus@2x.jpg" alt="client logo" class="client loopus">
+            <img src="/assets/img/clients/microsoft@2x.jpg" alt="client logo" class="client microsoft">
+            <img src="/assets/img/clients/ericsson@2x.jpg" alt="client logo" class="client ericsson">
+            <img src="/assets/img/clients/dnb@2x.jpg" alt="client logo" class="client dnb">
+            <img src="/assets/img/clients/talkbook@2x.jpg" alt="client logo" class="client talkbook">
+            <img src="/assets/img/clients/n_s@2x.jpg" alt="client logo" class="client n_s">
+            <img src="/assets/img/clients/abbvie@2x.jpg" alt="client logo" class="client abbive">
+        </div>
+    </section>
+    
+    <section class="section contact">
+        <h2 class="section__title">Send us a message</h2>
+        <p class="section__description">Fill the form and we will reach back to you within 24h. If you don't like filling forms, you can always send us an email at <a href="mailto:hello@underlayer.com">hello@underlayer.com</a>.</p>
+        <div class="contact-form">
+            <form action="//formspree.io/hello@underlayer.design" method="POST">
+                <input type="text" class="line-input" name="name" placeholder="your name">
+                <input type="email" class="line-input" name="_replyto" placeholder="your email">
+                <!-- spam filter -->
+                <input type="text" name="_gotcha" style="display:none" />
+                <!-- Thanks page -->
+                <input type="hidden" name="_next" value="//site.io/thanks.html" />
+                <!-- subject -->
+                <input type="hidden" name="_subject" value="New submission!" />
+                <!-- about the project -->
+                <textarea rows="5" class="line-textarea" placeholder="about project"></textarea>
+                <input type="submit" class="cta" value="Send">
+            </form>
+        </div>
+    </section>
+</div>
