@@ -1,8 +1,7 @@
 ---
 layout: page
 permalink: /
-title: building digital experiences
-description: underlayer is design and development studio that strives to design and develop beautiful, easy to use mobile apps and websites for clients like you.
+title: Building Digital Experiences
 ---
 <div class="landing">
     <section class="hero">
@@ -40,19 +39,19 @@ description: underlayer is design and development studio that strives to design 
         <h2 class="section__title">Send us a message</h2>
         <p class="section__description">Fill the form and we will reach back to you within 24h. If you don't like filling forms, you can always send us an email at <a href="mailto:hello@underlayer.com">hello@underlayer.com</a>.</p>
         <div class="contact-form">
-            <form action="//formspree.io/hello@underlayer.design" method="POST">
-                <input type="text" class="line-input" name="name" placeholder="your name">
-                <input type="email" class="line-input" name="_replyto" placeholder="your email">
-                <!-- spam filter -->
-                <input type="text" name="_gotcha" style="display:none" />
-                <!-- Thanks page -->
+            <form id="contactform" method="POST">
+                <input type="text" name="name" placeholder="your name" class="line-input">
+                <input type="email" name="_replyto" placeholder="your email" class="line-input">
                 <input type="hidden" name="_next" value="//underlayer.design/thanks/" />
-                <!-- subject -->
-                <input type="hidden" name="_subject" value="New submission!" />
-                <!-- about the project -->
-                <textarea rows="5" class="line-textarea" placeholder="about project"></textarea>
-                <input type="submit" class="cta" value="Send">
+                <input type="hidden" name="_subject" value="Website contact" />
+                <textarea name="message" placeholder="about project" class="line-textarea"></textarea>
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="submit" value="Send" class="cta">
             </form>
+            <script>
+                var contactform =  document.getElementById('contactform');
+                contactform.setAttribute('action', '//formspree.io/' + 'hello' + '@' + 'underlayer' + '.' + 'design');
+            </script>
         </div>
     </section>
 </div>
