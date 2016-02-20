@@ -655,7 +655,7 @@ nav.main .git {
   nav.main .git {
     display: block;
     margin: 0;
-    padding: 30px 20px 0px;
+    padding: 30px 20px 20px;
   }
   nav.main.mobile-nav {
     height: 100%;
