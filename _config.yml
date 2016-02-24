@@ -17,7 +17,7 @@ markdown: kramdown
 
 include: ["_pages"]
 
-exclude: ["node_modules"]
+exclude: ["node_modules", "history.lock", "gulpfile.js", config.yml, "package.json"]
 
 gems:
   - jekyll-sitemap
