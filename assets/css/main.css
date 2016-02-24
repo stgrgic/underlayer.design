@@ -320,6 +320,9 @@ h3 {
 .img-resp img {
   width: 100%;
 }
+body.hide {
+  overflow: hidden;
+}
 .container {
   width: 100%;
   max-width: 1600px;
