@@ -39,7 +39,7 @@ title: We design digital experiences
         <h2 class="section__title">Send us a message</h2>
         <p class="section__description">Fill the form and we will reach back to you within 24h. If you don't like filling forms, you can always send us an email at <a href="mailto:hello@underlayer.com">hello@underlayer.com</a>.</p>
         <div class="contact-form">
-            <form id="contactform" method="POST">
+            <form id="contactform" action="//formspree.io/hello@underlyer.design" method="POST">
                 <input type="text" name="name" placeholder="your name" class="line-input">
                 <input type="email" name="_replyto" placeholder="your email" class="line-input">
                 <input type="hidden" name="_next" value="//underlayer.design/thanks/" />
@@ -48,10 +48,6 @@ title: We design digital experiences
                 <input type="text" name="_gotcha" style="display:none" />
                 <input type="submit" value="Send" class="cta">
             </form>
-            <script>
-                var contactform =  document.getElementById('contactform');
-                contactform.setAttribute('action', '//formspree.io/' + 'hello' + '@' + 'underlayer' + '.' + 'design');
-            </script>
         </div>
     </section>
 </div>
