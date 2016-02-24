@@ -16,3 +16,6 @@ ehthumbs.db
 Thumbs.db
 
 .idea
+
+history.lock
+config.yml
