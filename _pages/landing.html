@@ -39,11 +39,13 @@ title: We design digital experiences
         <h2 class="section__title">Send us a message</h2>
         <p class="section__description">Fill the form and we will reach back to you within 24h. If you don't like filling forms, you can always send us an email at <a href="mailto:hello@underlayer.com">hello@underlayer.com</a>.</p>
         <div class="contact-form">
-            <form accept-charset="UTF-8" action="https://formkeep.com/f/9b9e145f39cf" method="POST">
-                <input type="hidden" name="utf8" value="✓">
-                <input type="text" name="name" placeholder="your name" class="line-input" required>
-                <input type="email" name="_replyto" placeholder="your email" class="line-input" required>
-                <textarea name="message" placeholder="about project" class="line-textarea" required></textarea>
+            <form action="http://formspree.io/bxdjwakx" method="POST">
+                <input type="text" name="name" placeholder="your name" class="line-input">
+                <input type="email" name="_replyto" placeholder="your email" class="line-input">
+                <input type="hidden" name="_next" value="//underlayer.design/thanks/" />
+                <input type="hidden" name="_subject" value="Website contact" />
+                <textarea name="message" placeholder="about project" class="line-textarea"></textarea>
+                <input type="text" name="_gotcha" style="display:none" />
                 <input type="submit" value="Send" class="cta">
             </form>
         </div>
